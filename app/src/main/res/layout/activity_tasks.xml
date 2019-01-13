@@ -8,13 +8,18 @@
         tools:context=".TasksActivity">
 
     <ListView
-            android:layout_width="368dp"
-            android:layout_height="495dp" tools:layout_editor_absoluteY="8dp"
+            android:layout_width="357dp"
+            android:layout_height="568dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp"/>
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="35dp"
+            android:layout_marginRight="35dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="1.0"
+            android:layout_marginBottom="28dp"/>
     <Button
             android:text="+"
-            android:layout_width="88dp"
-            android:layout_height="90dp" android:id="@+id/button" tools:layout_editor_absoluteY="217dp"
-            tools:layout_editor_absoluteX="176dp"/>
+            android:layout_width="55dp"
+            android:layout_height="45dp" android:id="@+id/button" tools:layout_editor_absoluteY="506dp"
+            tools:layout_editor_absoluteX="309dp"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            style="@style/Widget.MaterialComponents.Button"/>
 </android.support.constraint.ConstraintLayout>
